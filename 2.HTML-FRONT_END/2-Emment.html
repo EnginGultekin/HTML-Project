@@ -1,0 +1,131 @@
+<!-- 
+    !+TAB 
+
+    HTML Temel Yapısının oluşmasına yardımcı olur
+-->
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> 
+
+-->
+
+
+
+<!-- 
+    Etiket isimlerini direkt verebiliyoruz
+    + Kardeş öğe oluştur
+    > içinde öğe oluştur
+    ^ Yukarı Çık Öğe oluştur
+    * çarp p*3 gibi
+    lorem ???
+    lorem4 -> 4 kelimelik lorem
+    . -> class
+    # -> id
+-->
+
+
+<!-- 
+            DENEMELER  
+-->
+
+<!-- h1+p+p+p+h2+p+p+p+p -->
+<!-- h1+p*3+h2+p*4 -->
+
+<!-- ul>li*4+li>ol>li*5 -->
+
+<!-- ul>li*4^p*2+h3 -->
+
+<!-- ul>li*4>lorem*2 -->
+<!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -- hatalı  -->
+
+<!-- ol>li*4>lorem1^^p*2>lorem4^h1>lorem1 -->
+
+<!-- h3.deneme -->  <h3 class="deneme"></h3>  
+<!-- h3#idolussun -->  <h3 id="idolussun"></h3>
+
+<!-- h3.deneme#idolussun --> 
+<h3 class="deneme" id="idolussun"></h3>
+<!-- h3.deneme#idolussun>lorem1 -->
+<h3 class="deneme" id="idolussun">Lorem.</h3>
+
+<!-- ul>li.deneme>lorem1 -->
+<ul>
+    <li class="deneme">Lorem.</li>
+</ul>
+
+<!-- ul>.text-red*3 -->
+<ul>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+    <li class="text-red"></li>
+</ul>
+
+<!-- ul>li.tepki -->
+<ul>
+    <li class="tepki"></li>
+</ul>
+
+<!-- ul>li*3>.deneme>lorem1 -->
+<ul>
+    <li>
+        <div class="deneme">Lorem.</div>
+        <div class="deneme">Dolor!</div>
+        <div class="deneme">Rem.</div>
+    </li>
+    <li>
+        <div class="deneme">Lorem.</div>
+        <div class="deneme">Placeat!</div>
+        <div class="deneme">Nam!</div>
+    </li>
+    <li>
+        <div class="deneme">Lorem.</div>
+        <div class="deneme">Commodi.</div>
+        <div class="deneme">Quidem!</div>
+    </li>
+</ul>
+
+
+<!--  ul>li#id1+li#id2+li#id3 -->
+<ul>
+    <li id="id1"></li>
+    <li id="id2"></li>
+    <li id="id3"></li>
+</ul>
+
+<!-- p{Emmet ile tag içine text yazma} -->
+<p>Emmet ile tag içine text yazma</p>
+
+
+<!-- .denemeClass -->
+<div class="denemeClass"></div>
+
+
+<!-- ul>li.item$*4 -->
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+</ul>
+
+<!-- div>p#item*6>lorem10 -->
+<div>
+    <p id="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, repellendus.</p>
+    <p id="item">Eaque corporis autem cumque sunt molestias animi perferendis reprehenderit distinctio?</p>
+    <p id="item">Iure perferendis voluptates quae est, totam cupiditate corrupti nemo in?</p>
+    <p id="item">Repudiandae impedit facilis ea cumque minima eaque velit, laudantium optio!</p>
+    <p id="item">Sed repudiandae molestiae deleniti aliquid magnam doloremque eaque sit et!</p>
+    <p id="item">Nihil vitae animi delectus distinctio modi. Rem non quia quo?</p>
+</div>
